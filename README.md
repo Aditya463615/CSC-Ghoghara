@@ -44,10 +44,10 @@ class Storage:
 ```python
 myStorage = Storage()
 myStorage.uploadFile('<path of the file to upload on local computer>')
-#myStorage.downloadFile('<path of the file to download from github>')
-#myStorage.deleteFile('<path of the file to delete from github>')
-#myStorage.uploadFile('<path of the file to upload on local computer>',folder="<path of the folder on github>")
-#myStorage.showContents('<path of the folder of github>')
+myStorage.downloadFile('<path of the file to download from github>')
+myStorage.deleteFile('<path of the file to delete from github>')
+myStorage.uploadFile('<path of the file to upload on local computer>',folder="<path of the folder on github>")
+myStorage.showContents('<path of the folder of github>')
 ```
 
 
