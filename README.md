@@ -17,7 +17,7 @@ py -m pip install Github
 
 ```python
 class Storage:
-    def __init__(self,token="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",resporatory="CSC-Ghoghara"):
+    def __init__(self,token=<token>",resporatory="<resporatory>"):
         self.token = token
         self.resporatory = resporatory
         self.g = Github(token)
